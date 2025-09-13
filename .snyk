@@ -1,0 +1,125 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gatsby > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > lodash
+    - gatsby > @babel/core > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > @babel/core > lodash
+    - gatsby > css-loader > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > css-loader > lodash
+    - gatsby > devcert > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > devcert > lodash
+    - gatsby > eslint > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint > lodash
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint-plugin-flowtype > lodash
+    - gatsby > eslint-plugin-graphql > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint-plugin-graphql > lodash
+    - gatsby > gatsby-cli > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-cli > lodash
+    - gatsby > gatsby-plugin-page-creator > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-plugin-page-creator > lodash
+    - gatsby > webpack-merge > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > webpack-merge > lodash
+    - gatsby > @babel/core > @babel/generator > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > @babel/core > @babel/generator > lodash
+    - gatsby > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > @babel/core > @babel/helper-module-transforms > lodash
+    - gatsby > eslint > inquirer > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint > inquirer > lodash
+    - gatsby > eslint > table > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint > table > lodash
+    - gatsby > eslint-plugin-graphql > graphql-config > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > eslint-plugin-graphql > graphql-config > lodash
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-plugin-page-creator > gatsby-page-utils > lodash
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin
+          > lodash
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > react-dev-utils > inquirer > lodash
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > webpack-dev-server > http-proxy-middleware > lodash
+    - gatsby > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > @babel/core > @babel/generator > @babel/types > lodash
+    - gatsby > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > @typescript-eslint/eslint-plugin >
+          @typescript-eslint/experimental-utils >
+          @typescript-eslint/typescript-estree > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > webpack-dev-server > portfinder > async > lodash
+    - gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-define-map > lodash
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2025-09-13T19:12:42.359Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-proposal-unicode-property-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
